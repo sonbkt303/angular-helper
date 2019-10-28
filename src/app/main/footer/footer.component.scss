@@ -1,0 +1,28 @@
+@import '../../../assets/utilities/variables';
+
+.footer {
+  background: linear-gradient(0deg, #a8d5f4, #70dfc1);
+  min-height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+  .content {
+    text-align: center;
+
+    #text-content {
+      color: white;
+      font-family: 'Signika Negative', sans-serif;
+      font-size: 3rem;
+      padding-bottom: 1rem;
+      font-weight: 300;
+    }
+
+    // display: flex;
+  }
+
+  i {
+    margin-right: 20px;
+  }
+}

@@ -1,0 +1,31 @@
+@import '../../../assets//utilities/variables';
+nav {
+  padding: .5rem 0;
+  background: #efefef;
+  transition: none;
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+  max-height: 80px;
+
+  a {
+    color: black
+  }
+
+
+  #logo {
+    // display: flex;
+    // align-items: center;
+
+    h4 {
+      text-align: center;
+      // -webkit-flex: 1;
+      /* Safari 6.1+ */
+      // flex: 1;
+    }
+
+    // padding-left: 50%; 
+  }
+
+
+}
