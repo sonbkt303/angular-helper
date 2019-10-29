@@ -1,18 +1,15 @@
 @import '../../../assets/utilities/variables';
 
 .resume {
-  // padding-top: 100px;
-  // background-color: white;
 
   .colorlib-aside {
-    height: 404px;
-    // background: #efefef;
-    // float: left;
+    height: 650px;
     margin-top: -24px;
     min-width: 300px;
     overflow-y: scroll;
     background: #f2f3f7;
-    position: fixed;
+    font-family: "Quicksand", Arial, sans-serif;
+    line-height: 1.8;
 
     .author {
       margin-top: 50px;
@@ -38,6 +35,48 @@
         text-transform: uppercase;
       }
 
+    }
+
+    .colorlib-main-menu {
+      margin-top: 20px;
+      margin-bottom: 30px;
+
+      .active {
+        text-decoration: underline;
+        text-decoration-color: #4ca5f1;
+      }
+
+      ul {
+        list-style: none;
+        padding: 0;
+
+      }
+
+      li {
+        font-family: "Quicksand", Arial, sans-serif;
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: 500;
+        margin-bottom: 10px;
+
+        a {
+          color: rgba(0, 0, 0, 0.7);
+          cursor: pointer;
+        }
+
+        a:hover {
+          color: #4ca5f1;
+        }
+      }
+    }
+
+    .colorlib-footer {
+      font-weight: 400;
+      color: rgba(0, 0, 0, 0.5);
+
+      a {
+        color: #54a8f1;
+      }
     }
   }
 }
