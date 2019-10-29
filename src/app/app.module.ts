@@ -10,7 +10,7 @@ import { WelcomeComponent } from './main/welcome/welcome.component';
 import { HeaderComponent } from './main/header/header.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FooterComponent } from './main/footer/footer.component';
-import { AboutComponent } from './main/about/about.component';
+import { ResumeComponent } from './main/resume/resume.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +19,7 @@ import { AboutComponent } from './main/about/about.component';
     WelcomeComponent,
     HeaderComponent,
     FooterComponent,
-    AboutComponent
+    ResumeComponent
   ],
   imports: [BrowserModule, AppRoutingModule, BrowserAnimationsModule, MatSliderModule],
   providers: [],
