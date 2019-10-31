@@ -91,35 +91,23 @@
 
 
       .carousel-inner {
-        // min-height: 650px;
-        // width: 100;
-        // background-size: cover;
-        // -webkit-background-size: cover;
-        // -moz-background-size: cover;
-        // -o-background-size: cover;
         margin-left: -2%;
+
+
+        display: table;
 
         .carousel-item {
           min-height: 650px;
           width: 100%;
-          // background-size: cover;
-          // -webkit-background-size: cover;
-          // -moz-background-size: cover;
-          // -o-background-size: cover;
+          display: table;
 
+
+          h1 {
+            vertical-align: middle;
+            display: table-cell;
+
+          }
         }
-
-        // #carousel-1 {
-
-        //   background: url(../../../assets/images/resume/resume_carousel_1.jpg) no-repeat center center;
-
-        // }
-
-        // #carousel-1 {
-        //   background: url(../../../assets/images/resume/resume_carousel_2.jpg) no-repeat center center;
-        // }
-
-
 
       }
 
