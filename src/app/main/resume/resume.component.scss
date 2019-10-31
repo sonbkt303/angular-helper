@@ -1,11 +1,12 @@
 @import '../../../assets/utilities/variables';
 
 .resume {
+  margin-top: -24px;
 
   .colorlib-aside {
     height: 650px;
-    margin-top: -24px;
-    min-width: 300px;
+
+    // min-width: 300px;
     overflow-y: scroll;
     background: #f2f3f7;
     font-family: "Quicksand", Arial, sans-serif;
@@ -77,6 +78,51 @@
       a {
         color: #54a8f1;
       }
+    }
+  }
+
+
+
+  .colorlib-main {
+
+    .section-1 {
+      // background: url(../../../assets/images/resume/resume_bg_1.jpg) no-repeat center center;
+
+
+
+      .carousel-inner {
+        // min-height: 650px;
+        // width: 100;
+        // background-size: cover;
+        // -webkit-background-size: cover;
+        // -moz-background-size: cover;
+        // -o-background-size: cover;
+        margin-left: -2%;
+
+        .carousel-item {
+          min-height: 650px;
+          width: 100%;
+          // background-size: cover;
+          // -webkit-background-size: cover;
+          // -moz-background-size: cover;
+          // -o-background-size: cover;
+
+        }
+
+        // #carousel-1 {
+
+        //   background: url(../../../assets/images/resume/resume_carousel_1.jpg) no-repeat center center;
+
+        // }
+
+        // #carousel-1 {
+        //   background: url(../../../assets/images/resume/resume_carousel_2.jpg) no-repeat center center;
+        // }
+
+
+
+      }
+
     }
   }
 }
