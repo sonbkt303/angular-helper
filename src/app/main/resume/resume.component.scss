@@ -84,33 +84,50 @@
 
 
   .colorlib-main {
+    padding: 0;
+    margin: 0;
 
-    .section-1 {
-      // background: url(../../../assets/images/resume/resume_bg_1.jpg) no-repeat center center;
-
-
-
-      .carousel-inner {
-        margin-left: -2%;
+    .carousel-inner {
+      // margin-left: -2%;
 
 
-        display: table;
 
-        .carousel-item {
-          min-height: 650px;
-          width: 100%;
-          display: table;
+      .item {
+        min-height: 650px;
+        // width: 100%;
 
+        .carousel-caption {
+          transform: translateY(-50%);
+          bottom: 0;
+          top: 54%;
+          margin-left: -14%;
 
           h1 {
-            vertical-align: middle;
-            display: table-cell;
+            color: black;
+            color: black;
+            font-family: "Playfair Display", Georgia, serif;
+            font-weight: 700;
+            font-size: 60px;
+          }
+
+          button {
+            text-transform: uppercase;
+            padding: 10px 15px;
+            letter-spacing: 2px;
+            border: 0.5px solid #000;
+            background: transparent;
+            font-weight: 100;
+          }
+
+          button:hover {
+            color: #007bff;
+            transition-duration: .6s;
 
           }
         }
-
       }
 
     }
+
   }
 }
