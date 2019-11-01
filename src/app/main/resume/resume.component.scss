@@ -25,7 +25,7 @@
       }
 
       #author-name {
-        font-family: "Playfair Display", Georgia, serif;
+        font-family: $resume-font;
         color: #000;
         display: block;
         font-size: 22px;
@@ -54,7 +54,7 @@
       }
 
       li {
-        font-family: "Quicksand", Arial, sans-serif;
+        font-family: $resume-font;
         text-transform: uppercase;
         font-size: 14px;
         font-weight: 500;
@@ -125,6 +125,37 @@
 
           }
         }
+      }
+
+    }
+
+    .about-desc {
+      padding-left: 25px;
+      margin-top: 9em;
+
+      .heading-meta {
+        color: #999999;
+        font-weight: 500;
+        letter-spacing: 5px;
+        font-family: $resume-font;
+        display: block;
+        font-size: 10px;
+        margin-bottom: 3em;
+      }
+
+      .colorlib-heading {
+        font-size: 18px;
+        font-weight: 700;
+        letter-spacing: 5px;
+        font-family: $resume-header-font;
+      }
+
+      .about-content {
+        margin-top: 4em;
+        font-family: $resume-font;
+        font-size: 17px;
+        line-height: 1.8;
+        color: rgba(0, 0, 0, 0.7);
       }
 
     }
