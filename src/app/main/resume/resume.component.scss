@@ -138,6 +138,7 @@ $heading-meta: (
 
     .colorlib-desc {
       margin-top: 9em;
+      padding-top: 15px;
 
       .heading-meta:before {
         content: map-get($heading-meta, key);

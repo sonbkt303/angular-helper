@@ -12,14 +12,14 @@
 
         <nav class="colorlib-main-menu align-center">
           <ul>
-            <li class="active"><a href="#home">Home</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Services</a></li>
-            <li><a href="">Skills</a></li>
-            <li><a href="">Education</a></li>
+            <li class="active"><a (click)="scrollTo('section1')">Home</a></li>
+            <li><a (click)="scrollTo('section2')">About Us</a></li>
+            <!-- <a><a href="">Services</a></li> -->
+            <li><a (click)="scrollTo('section3')">Skills</a></li>
+            <!-- <li><a href="">Education</a></li> -->
             <li><a href="">Experience</a></li>
-            <li><a href="">Work</a></li>
-            <li><a href="">Blog</a></li>
+            <!-- <li><a href="">Work</a></li> -->
+            <!-- <li><a href="">Blog</a></li> -->
             <li><a href="">Contact</a></li>
           </ul>
         </nav>
@@ -51,8 +51,8 @@
       </div>
     </div>
 
-    <div class="colorlib-main col-md-9">
-      <div id="slide-man" class="carousel slide" data-ride="carousel" data-interval="2000">
+    <div class="colorlib-main col-md-9" >
+      <div id="slide-man section1" class="carousel slide" data-ride="carousel" data-interval="2000">
         <ul class="carousel-indicators">
           <li data-target="#slide-man" data-slide-to="0" class="active"></li>
           <li data-target="#slide-man" data-slide-to="1"></li>
@@ -91,7 +91,7 @@
       </div>
 
 
-      <section class="colorlib-desc">
+      <section id="section2" class="colorlib-desc">
         <div class="container">
           <span class="heading-meta upper-case">About us</span>
 
@@ -165,7 +165,7 @@
         </div>
       </section>
 
-      <section class="colorlib-skill">
+      <section id="section3" class="colorlib-skill">
 
         <div class="container">
           <span class="heading-meta upper-case">My Specialty</span>
