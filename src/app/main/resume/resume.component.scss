@@ -1,5 +1,15 @@
 @import '../../../assets/utilities/variables';
 
+$heading-meta: (
+  color: #999999,
+  font-weight: 500,
+  letter-spacing: 5px,
+  font-family: $resume-font,
+  display: block,
+  font-size: 10px,
+  margin-bottom: 3em
+);
+
 .resume {
   margin-top: -24px;
 
@@ -9,7 +19,7 @@
     // min-width: 300px;
     overflow-y: scroll;
     background: #f2f3f7;
-    font-family: "Quicksand", Arial, sans-serif;
+    font-family: 'Quicksand', Arial, sans-serif;
     line-height: 1.8;
 
     .author {
@@ -35,7 +45,6 @@
         font-size: 12px;
         text-transform: uppercase;
       }
-
     }
 
     .colorlib-main-menu {
@@ -50,7 +59,6 @@
       ul {
         list-style: none;
         padding: 0;
-
       }
 
       li {
@@ -81,8 +89,6 @@
     }
   }
 
-
-
   .colorlib-main {
     padding: 0;
     margin: 0;
@@ -94,8 +100,6 @@
 
     .carousel-inner {
       // margin-left: -2%;
-
-
 
       .item {
         min-height: 650px;
@@ -110,7 +114,7 @@
           h1 {
             color: black;
             color: black;
-            font-family: "Playfair Display", Georgia, serif;
+            font-family: 'Playfair Display', Georgia, serif;
             font-weight: 700;
             font-size: 60px;
           }
@@ -126,16 +130,18 @@
 
           button:hover {
             color: #007bff;
-            transition-duration: .6s;
-
+            transition-duration: 0.6s;
           }
         }
       }
-
     }
 
     .colorlib-desc {
       margin-top: 9em;
+
+      .heading-meta:before {
+        content: map-get($heading-meta, key);
+      }
 
       .heading-meta {
         color: #999999;
@@ -180,33 +186,27 @@
           }
 
           h5 {
-            // font-family: "Quicksand", Arial, sans-serif;
             font-size: 18px;
             font-weight: 300;
             line-height: 1.1;
           }
         }
-
-
       }
-
-
     }
 
     .colorlib-hire {
       .colorlib-hire-bg {
-
         background: #f9bf3f;
         min-height: 200px;
 
-        >div {
+        > div {
           padding-top: 30px;
           padding-left: 30px;
         }
 
         h1 {
           color: #000;
-          font-family: "Playfair Display", Georgia, serif;
+          font-family: 'Playfair Display', Georgia, serif;
           font-weight: 10;
           margin: 0 0 30px 0;
           line-height: 1.5;
@@ -216,7 +216,7 @@
 
         a {
           letter-spacing: 1px;
-          bordeR: 1px solid #000;
+          border: 1px solid #000;
           padding: 2px 10px;
           font-weight: 100;
           color: #000;
@@ -224,11 +224,41 @@
       }
     }
 
-    .colorlib-services {
+    .colorlib-skill {
 
-      background: red;
-      margin-bottom: 30px;
+      .skill {
+        margin-bottom: 30px;
+      }
+      h5 {
+        font-size: 16px;
+        font-family: 'Quicksand', Arial, sans-serif;
+        margin-bottom: 10px;
+        color: #000;
+        font-family: 'Playfair Display', Georgia, serif;
+        font-weight: 400;
+        text-transform: uppercase;
+      }
+      .heading-meta {
+        color: #999999;
+        font-weight: 500;
+        letter-spacing: 5px;
+        font-family: $resume-font;
+        display: block;
+        font-size: 10px;
+        margin-bottom: 3em;
+      }
+
+      h2 {
+        font-size: 18px;
+        font-weight: 700;
+        letter-spacing: 5px;
+        font-family: 'Playfair Display', Georgia, serif;
+        margin-bottom: 75px;
+      }
+
+      .process-height {
+        height: 10px;
+      }
     }
-
   }
 }
