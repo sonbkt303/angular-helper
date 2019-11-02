@@ -11,6 +11,7 @@ import { HeaderComponent } from './main/header/header.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FooterComponent } from './main/footer/footer.component';
 import { ResumeComponent } from './main/resume/resume.component';
+import { ScrollSpyDirective } from './directives/scroll-spy.directive';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { ResumeComponent } from './main/resume/resume.component';
     WelcomeComponent,
     HeaderComponent,
     FooterComponent,
-    ResumeComponent
+    ResumeComponent,
+    ScrollSpyDirective
   ],
   imports: [BrowserModule, AppRoutingModule, BrowserAnimationsModule, MatSliderModule],
   providers: [],
