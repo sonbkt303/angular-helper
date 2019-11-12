@@ -11,7 +11,9 @@ export class ResumeComponent implements OnInit {
 
   ngOnInit() {}
 
+
   scrollTo(section: string) {
     document.querySelector('#' + section).scrollIntoView();
   }
 }
+
