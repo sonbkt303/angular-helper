@@ -13,6 +13,7 @@ import { FooterComponent } from './main/footer/footer.component';
 import { ResumeComponent } from './main/resume/resume.component';
 import { ContactFormComponent } from './components/contact-form/contact-form.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { ControllMessagesComponent } from './components/controll-messages/controll-messages.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { ReactiveFormsModule } from '@angular/forms';
     FooterComponent,
     ResumeComponent,
     ContactFormComponent,
+    ControllMessagesComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, BrowserAnimationsModule, MatSliderModule, ReactiveFormsModule],
   providers: [],
