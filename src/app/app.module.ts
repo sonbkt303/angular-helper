@@ -11,6 +11,8 @@ import { HeaderComponent } from './main/header/header.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FooterComponent } from './main/footer/footer.component';
 import { ResumeComponent } from './main/resume/resume.component';
+import { ContactFormComponent } from './components/contact-form/contact-form.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -20,8 +22,9 @@ import { ResumeComponent } from './main/resume/resume.component';
     HeaderComponent,
     FooterComponent,
     ResumeComponent,
+    ContactFormComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule, BrowserAnimationsModule, MatSliderModule],
+  imports: [BrowserModule, AppRoutingModule, BrowserAnimationsModule, MatSliderModule, ReactiveFormsModule],
   providers: [],
   bootstrap: [AppComponent]
 })
