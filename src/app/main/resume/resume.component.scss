@@ -135,7 +135,7 @@
             font-size: 60px;
           }
 
-          button {
+          #button-download {
             text-transform: uppercase;
             padding: 10px 15px;
             letter-spacing: 2px;
@@ -144,7 +144,7 @@
             font-weight: 100;
           }
 
-          button:hover {
+          #button-download:hover {
             color: #007bff;
             transition-duration: 0.6s;
           }
